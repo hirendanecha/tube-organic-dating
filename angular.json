@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "video-healing-tube": {
+    "organic-dating-tube": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist-video/video-healing-tube/browser",
+            "outputPath": "dist-video/organic-dating-tube/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -78,10 +78,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "video-healing-tube:build:production"
+              "browserTarget": "organic-dating-tube:build:production"
             },
             "development": {
-              "browserTarget": "video-healing-tube:build:development"
+              "browserTarget": "organic-dating-tube:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -89,7 +89,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "video-healing-tube:build"
+            "browserTarget": "organic-dating-tube:build"
           }
         },
         "test": {
@@ -114,7 +114,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist-video/video-healing-tube/server",
+            "outputPath": "dist-video/organic-dating-tube/server",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json",
             "inlineStyleLanguage": "scss"
@@ -149,8 +149,8 @@
           "builder": "@nguniversal/builders:ssr-dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "video-healing-tube:build:development",
-              "serverTarget": "video-healing-tube:server:development"
+              "browserTarget": "organic-dating-tube:build:development",
+              "serverTarget": "organic-dating-tube:server:development"
             }
           },
           "defaultConfiguration": "development"
@@ -159,12 +159,12 @@
           "builder": "@nguniversal/builders:ssr-dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "video-healing-tube:build:development",
-              "serverTarget": "video-healing-tube:server:development"
+              "browserTarget": "organic-dating-tube:build:development",
+              "serverTarget": "organic-dating-tube:server:development"
             },
             "production": {
-              "browserTarget": "video-healing-tube:build:production",
-              "serverTarget": "video-healing-tube:server:production"
+              "browserTarget": "organic-dating-tube:build:production",
+              "serverTarget": "organic-dating-tube:server:production"
             }
           },
           "defaultConfiguration": "development"
@@ -178,12 +178,12 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "video-healing-tube:build:production",
-              "serverTarget": "video-healing-tube:server:production"
+              "browserTarget": "organic-dating-tube:build:production",
+              "serverTarget": "organic-dating-tube:server:production"
             },
             "development": {
-              "browserTarget": "video-healing-tube:build:development",
-              "serverTarget": "video-healing-tube:server:development"
+              "browserTarget": "organic-dating-tube:build:development",
+              "serverTarget": "organic-dating-tube:server:development"
             }
           },
           "defaultConfiguration": "production"

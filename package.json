@@ -1,5 +1,5 @@
 {
-  "name": "video-healing-tube",
+  "name": "organic-dating-tube",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,10 +8,10 @@
     "build:dev": "ng build --configuration development",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "dev:ssr": "ng run video-healing-tube:dev-serve-ssr",
-    "serve:ssr": "node dist-video/video-healing-tube/server/main.js",
-    "build:ssr": "ng build && ng run video-healing-tube:server",
-    "prerender": "ng run video-healing-tube:prerender"
+    "dev:ssr": "ng run organic-dating-tube:dev-serve-ssr",
+    "serve:ssr": "node dist-video/organic-dating-tube/server/main.js",
+    "build:ssr": "ng build && ng run organic-dating-tube:server",
+    "prerender": "ng run organic-dating-tube:prerender"
   },
   "private": true,
   "dependencies": {
