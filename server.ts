@@ -78,14 +78,14 @@ export function app(): express.Express {
         }
         const params = req.params[0];
         var seo: any = {
-          title: 'Oraganic dating tube',
+          title: 'Dating tube',
           description:
             'The Umbrella platform for All freedom based projects worldwide',
           image:
-            'https://video.healing.tube/assets/banner/Healing-Tube-Logo.jpg',
-          site: 'https://video.healing.tube/',
-          url: 'https://video.healing.tube' + params,
-          keywords: 'Healing Tube',
+            'https://tube.organic.dating/assets/Healing-Tube-Logo.jpg',
+          site: 'https://tube.organic.dating/',
+          url: 'https://tube.organic.dating' + params,
+          keywords: 'DatingTube',
         };
         if (
           params.indexOf('channel/') > -1
@@ -128,7 +128,7 @@ export function app(): express.Express {
           const talent = {
             name: post?.title || post?.albumname || 'Healing.Tube Post',
             description: pdhtml?.textContent || 'Post content',
-            image: post?.thumbfilename || post?.metaimage || post?.imageUrl,
+            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://tube.organic.dating/assets/Healing-Tube-Logo.jpg',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);

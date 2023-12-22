@@ -1,12 +1,12 @@
-const loginUrl = 'https://www.healing.tube/login';
-const logoutUrl = 'https://www.healing.tube/logout';
-const frontendUrl = 'https://video.healing.tube/';
-const backendUrl =  'https://api.healing.tube/';
+const loginUrl = 'https://organic.dating/login';
+const logoutUrl = 'https://organic.dating/logout';
+const frontendUrl = 'https://tube.organic.dating/';
+const backendUrl =  'https://api.organic.dating/';
 
 // const frontendUrl = 'http://localhost:4200/';
 // const backendUrl = 'http://localhost:8080/';
 // const loginUrl = 'http://localhost:4200/login';
-const wasabiUrl = 'https://freedom-social.s3.us-east-1.wasabisys.com/'
+const wasabiUrl = 'https://organic-dating.s3.wasabisys.com/'
 
 
 export const environment = {
@@ -15,7 +15,7 @@ export const environment = {
   backendUrl: backendUrl,
   loginUrl: loginUrl,
   apiUrl: `${backendUrl}api/v1/`,
-  domain: '.healing.tube',
+  domain: '.organic.dating',
   wasabiUrl: wasabiUrl,
   socketUrl: `${backendUrl}`,
   conferenceUrl: 'https://facetime.tube/',
