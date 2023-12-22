@@ -13,7 +13,7 @@
         ><img
           class="img-fluid h-40-px rounded"
           alt=""
-          src="\assets\Healing-Tube-Logo.png"
+          src="/assets/Healing-Tube-Logo.png"
       /></a>
     </div>
     <ul
@@ -64,7 +64,7 @@
               data-src="{{ shareService.userDetails?.ProfilePicName }}"
               alt=""
               loading="lazy"
-              onerror="this.onerror=null;this.src='assets/default-profile.jpg';"
+              onerror="this.onerror=null;this.src='assets/Healing-Tube-Logo.png';"
             />
             <!-- {{ shareService.userDetails?.Username }} -->
             <div class="c-header-name">
@@ -95,20 +95,20 @@
                 [icon]="['fas', 'user']"
                 [fixedWidth]="true"
               />
-              &nbsp; Healing Video Profile
+              &nbsp; DatingTube Profile
             </button>
             <!-- <button ngbDropdownItem>
             <fa-icon [icon]="['fas', 'video']" [fixedWidth]="true" />
             &nbsp; Subscriptions
           </button> -->
-            <button ngbDropdownItem routerLink="/settings">
+            <!-- <button ngbDropdownItem routerLink="/settings">
               <fa-icon
                 class="font-20-px"
                 [icon]="['fas', 'cog']"
                 [fixedWidth]="true"
               />
               &nbsp; Settings
-            </button>
+            </button> -->
             <button ngbDropdownItem>
               <div class="d-flex gap-1 align-items-center">
                 <fa-icon
