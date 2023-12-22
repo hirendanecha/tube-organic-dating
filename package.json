@@ -9,7 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "dev:ssr": "ng run organic-dating-tube:dev-serve-ssr",
-    "serve:ssr": "node dist-video/organic-dating-tube/server/main.js",
+    "serve:ssr": "node tube-dist/organic-dating-tube/server/main.js",
     "build:ssr": "ng build && ng run organic-dating-tube:server",
     "prerender": "ng run organic-dating-tube:prerender"
   },
