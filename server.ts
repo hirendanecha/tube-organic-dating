@@ -80,7 +80,7 @@ export function app(): express.Express {
         var seo: any = {
           title: 'Dating tube',
           description:
-            'The Umbrella platform for All freedom based projects worldwide',
+            'Find like minded male or female unvaccinated organic humans!',
           image:
             'https://tube.organic.dating/assets/Healing-Tube-Logo.jpg',
           site: 'https://tube.organic.dating/',
