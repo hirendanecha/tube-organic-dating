@@ -69,7 +69,7 @@ export class SeoService {
     }
 
     if (!tagValue.image) {
-      tagValue.image = 'https://freedom.buzz/assets/images/banner/freedom-buzz-high-res.jpeg';
+      tagValue.image = 'https://tube.organic.dating/assets/Healing-Tube-Logo.jpg';
     }
 
     this.meta.updateTag({
