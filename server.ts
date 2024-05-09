@@ -78,14 +78,14 @@ export function app(): express.Express {
         }
         const params = req.params[0];
         var seo: any = {
-          title: 'Dating tube',
+          title: 'OrganicDating.tube',
           description:
             'Find like minded male or female unvaccinated organic humans!',
           image:
             'https://tube.organic.dating/assets/Healing-Tube-Logo.jpg',
           site: 'https://tube.organic.dating/',
           url: 'https://tube.organic.dating' + params,
-          keywords: 'DatingTube',
+          keywords: 'OrganicDatingTube',
         };
         if (
           params.indexOf('channel/') > -1
