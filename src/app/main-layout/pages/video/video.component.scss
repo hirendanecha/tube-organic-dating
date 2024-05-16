@@ -4,7 +4,21 @@
   border-radius: 10px;
   padding: 10px 20px;
 }
-
+.search-input{
+  border-radius: 12px;
+}
+.share-icon{
+  font-size: 14px;
+}
+.description-box{
+  border-radius: 12px;
+}
+.single-video-author{
+  border-radius: 12px;
+}
+// .single-video-comment-tabs{
+//   // border-radius: 12px;
+// }
 .header-text {
   font-size: 18px;
   color: var(--text-color);
@@ -126,5 +140,12 @@
       border: 1px solid var(--link-color);
       border-radius: 15px;
     }
+  }
+
+  .jw-controlbar .jw-button-image {
+    background-color: white !important;
+    border-radius: 7px !important;
+    height: 30px;
+    width: 34px;
   }
 }

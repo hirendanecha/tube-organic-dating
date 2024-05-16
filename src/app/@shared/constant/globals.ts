@@ -283,7 +283,7 @@ export class Globals {
     }
 
     // static rememberMe(isRememberMe: boolean, params: any = {}): void {
-    //     if(isRememberMe && params && params['username'] && params['password']) {
+    //     if(isRememberMe && params && params['userName'] && params['password']) {
     //         // localStorage.setItem('me', );
     //     } else {
     //         localStorage.removeItem('me');

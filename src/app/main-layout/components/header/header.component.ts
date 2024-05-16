@@ -62,14 +62,10 @@ export class HeaderComponent implements OnInit {
   logout(): void {
     // this.isCollapsed = true;
     this.cookieService.delete('auth-user', '/', environment.domain);
-    this.commonService.get(this.apiUrl).subscribe({
-      next: (res => {
-        localStorage.clear();
-        sessionStorage.clear();
-        location.href = environment.logoutUrl;
-        // location.href = "https://freedom-api.opash.in/api/v1/customers/logout";
-      })
-    })
+    localStorage.clear();
+    sessionStorage.clear();
+    location.href = environment.logoutUrl;
+    // location.href = "https://freedom-api.opash.in/api/v1/customers/logout";
   }
 
   isUserMediaApproved(): boolean {
@@ -84,15 +80,18 @@ export class HeaderComponent implements OnInit {
     modalRef.componentInstance.title = `Upload Video`;
     modalRef.componentInstance.confirmButtonLabel = 'Upload Video';
     modalRef.componentInstance.cancelButtonLabel = 'Cancel';
-    modalRef.result.then(res => {
-      console.log(res)
-    })
+    modalRef.result.then((res) => {
+      console.log(res);
+    });
   }
 
   openNotificationsModal(): void {
-    this.userMenusOverlayDialog = this.modalService.open(NotificationsModalComponent, {
-      keyboard: true,
-      modalDialogClass: 'notifications-modal',
-    });
+    this.userMenusOverlayDialog = this.modalService.open(
+      NotificationsModalComponent,
+      {
+        keyboard: true,
+        modalDialogClass: 'notifications-modal',
+      }
+    );
   }
 }

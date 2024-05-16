@@ -38,7 +38,6 @@ export class MainLayoutComponent implements OnInit {
           const token = this.tokenData?.accessToken;
           const isLogin = token && auth ? true : false;
           this.authService.setToken(token);
-          // this.authService.setUserData(auth)
           this.shareService.getUserDetails(auth?.profileId);
           this.authService.userDetails = auth;
           this.authService.token = token;
